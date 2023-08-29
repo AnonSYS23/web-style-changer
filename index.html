@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cambiador de estilos</title>
+    <title>Color Flipper</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="/img/paintbrush.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hola</h1>
-    <p>Hola mundo</p>
+    <div class="container">
+        <h2>Color Flipper</h2>
+        <span class="color-hex">#303134</span>
+        <div class="btns">
+        <button id="reset">Reset</button>
+        <button id="generate">Generate</button>
+        </div>
+    </div>
 </body>
 <script src="/js/index.js"></script>
 </html>
